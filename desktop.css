@@ -1,8 +1,74 @@
-@media screen and (min-width: 768px)  {
-    
+@media(min-width:768px) {
+    .must {
+        display: flex;
+        background-color: black;
+    }
 
-.must{
-    display:flex;
-    background-color: black;
-}
+    .navbar {
+        background-color: white;
+    }
+
+    .head_content {
+        margin-left: 10%;
+    }
+
+    .campaign {
+        border: red 5px solid;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+
+    .text-color2 {
+        font-size: 2rem;
+    }
+
+    .costom-div {
+        margin-top: 2%;
+        font-size: 3rem;
+    }
+
+    .text5 {
+        font-size: 1.5rem;
+        width: 80%;
+        padding-right: 10%;
+    }
+
+    .rounded h4 {
+        font-size: 2rem;
+    }
+
+    .program_section .program {
+        width: 85%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .program_section .program>* {
+        flex: 1;
+    }
+
+    .teacher_part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid gold; */
+    }
+
+    .teacher_item {
+       display:grid;
+        grid-template-columns: 50% 50%;
+        padding: 1% 10%;
+        column-gap: 8%;
+    }
+
+    .cards {
+        /* border: 1px solid green; */
+        gap: 0%;
+    }
+    /* .more{
+        margin-top: 8%;
+    } */
+
 }

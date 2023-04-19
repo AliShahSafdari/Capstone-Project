@@ -63,6 +63,15 @@
   color: red;
 }
 
+.hr1 {
+  width: 20px !important;
+  height: 2px;
+  background-color: red;
+  color: red;
+  margin-top: -4%;
+  margin-bottom: -1%;
+}
+
 .program_section .program {
   width: 98%;
   display: flex;

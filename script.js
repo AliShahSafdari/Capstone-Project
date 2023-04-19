@@ -2,22 +2,22 @@ const teachers = document.getElementById('card');
 const buttonMore = document.querySelector('#btn_more');
 const teacherInfo = [
   {
-    name: 'Ahmadreza Azad', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/images/teacher-1.jpeg',
+    name: 'Ibrahim Alizada', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/teacher-1.jpeg',alt: 'firstTeacher',
   },
   {
-    name: 'Mahram Ali Ahmadi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/images/teacher-2.jpeg',
+    name: 'Maryam Ahmadi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/secondTeacher.jpg',alt: 'secondTeacher',
   },
   {
-    name: 'Khodadad Sourosh', skills: 'Bachelor of English language and percian language', details: 'Execute lessons efficiently using different styles of teaching depending on the content.', img: 'assets/images/teacher-3.jpeg',
+    name: 'Zahrah Amin Sourosh', skills: 'Bachelor of English language and percian language', details: 'Execute lessons efficiently using different styles of teaching depending on the content.', img: 'assets/Image/ThirdTeacher.jpg',alt: 'ThirdTeacher',
   },
   {
-    name: 'Abel Mawi', skills: 'PHD of English language and percian language', details: 'Instruct students about the structure and content of the English language.', img: 'assets/images/teacher-4.jpeg',
+    name: 'Mohamddad Ali Jafari', skills: 'PHD of English language and percian language', details: 'Instruct students about the structure and content of the English language.', img: 'assets/Image/4thTeacher.jpg',alt: ' fourthTeacher',
   },
   {
-    name: 'Mahram Ali Ahmadi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/images/teacher-5.jpeg',
+    name: 'Basir Ghaznavi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/5thTeacher.jpg',alt: 'fifthTeacher',
   },
   {
-    name: 'Ahmadreza Azad', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/images/teacher-6.jpeg',
+    name: 'M Hashim Danish', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/6thTeacher.jpg',alt: 'SixthTeacher',
   },
 ];
 
@@ -38,11 +38,12 @@ function teacherInfors() {
     }
     card1.innerHTML = `
             <div class="images-div">
-                <img src="${teacher.img}" alt="">
+                <img src="${teacher.img}" alt="${teacher.alt}">
             </div>
             <div class="info-div">
                 <h6>${teacher.name}</h6>
                 <p class="small">${teacher.skills}</p>
+                <hr class="hr1">
                 <p>${teacher.details}</p>
             </div>`;
     count += 1;

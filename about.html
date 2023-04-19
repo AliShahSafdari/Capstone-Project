@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about-desktop-version.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -53,15 +54,16 @@
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Meshkut <small class="active1">
-                                    Educational </small> Society </h5>
+                            <a class="offcanvas-title" href="index.html" id="offcanvasNavbarLabel">Meshkut <small class="active1">
+                                    Educational </small> Society </a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                 <li class="nav-item text-color1">
-                                    <a class="nav-link" aria-current="page" href="about.html">About</a>
+                                    <a class="nav-link" aria-current="page" href="#" data-bs-dismiss="offcanvas"
+                                    aria-label="Close">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#" data-bs-dismiss="offcanvas"
@@ -89,7 +91,7 @@
             <div class="row">
                 <div class="col head_content mb-5">
                     <div class="mt-4 ms-1 active rounded">
-                        <h5 class="text-color1 text-color2">"Hello! Sharing world"</h5>
+                        <h5 class="text-color1 text-color2 d-md-none">"Hello! Sharing world"</h5>
                         <div id="demo-text" class=" fw-bolder px-1 costom-div">MESHKUT EDUCATIONAL <br>SOCIETY
                             FOR 2023</div>
                         <P class="text5 tx-custom-black white-border bg-white fs-small  px-4 py-3 mt-4 mb-4">Meshkut
@@ -100,7 +102,11 @@
                             Society is an education management company based in Afghanistan.
                             Meshkut
                             Educational Society
-                            is a non-profit educational institute focused on providing access to to QoS.</P>
+                            is a non-profit educational institute focused on providing access to to QoS. <span class="must1">
+                            Society is an education management company based in Afghanistan.
+                            Meshkut
+                            Educational Society
+                            is a non-profit educational institute focused on providing access to to QoS.</span></P>
                             <p class="tx-custom-black fs-small  text-center text6 ">Please contact us per Email for any
                                 further
                                 questions about Meshkut Educational Society!</p>
@@ -170,7 +176,7 @@
             </div>
         </div>
     </section>
-    <footer class="container-fluid">
+    <footer class="container-fluid backgrond-color">
         <div class="container">
             <div class="row">
                 <div class="col text-center pt-3 custom1">

@@ -1,30 +1,7 @@
+# HTML/CSS & JavaScript capstone project - Meshkut Educational Society
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <!-- <h3><b>Microverse README Template</b></h3> -->
@@ -57,83 +34,68 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Ali's portfolio website] <a name="about-project"></a>
+# 📖 [Meshkut Educational Society]<a name="about-project"> 
+Hi, this is a website for Meshkut Educational Center</a>
 
-> This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
+[Meshkut's Website] This a webasite mobile first app. It is created according to capston project but the contents are different. For now just about and home page are completed.
 
-**[Ali's portfolio website]** is a website that is used to test for responsiveness to mobile devices
+**[Meshkut's Educational Society Website]** is a website that is used to test for responsiveness to mobile devices
 
-## 🛠 Built With <a name="HTML and CSS"></a>
+## 🛠 Built With <a name="HTML, CSS and JavaScript "></a>
 
 ### Tech Stack <a name="Front end"></a>
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
 
-> This is a desk-top browser website.
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JS</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 ### Key Features 
-- **[It has a header for navigation]**
-- **[There is a headline section to know more about me and click on the links to connect with me directly]**
-- **[There is a works section to display my recent works]**
-- **[There is a skills section to showcase the skills I have in terms of programming]**
-- **[There is a form section to write me directly about any questions]**
-- **[The portfolio is mobile and desktop responsive]**
-- **[There is a pop-up window for when you click on the see project button]**
-- **[There is form validation for all input fields]**
-- **[Data are stored in local storage]**
+
+- **[Navbar]**
+- **[Background image]**
+- **[Mobile first]**
+- **[Linter is used]**
+- **[Eslinter is used]**
+- **[Responsive]**
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps in order.
+
+### Prerequisites
+
+You have to clone this project to your local machine.
+### Setup
+
+Clone this repository to your desired folder:git clone git@github.com:AliShahSafdari/Capstone-Project.git
+
+### Install
+
+Install this project with: VScode software or which you are comfortable with
+
+### Usage
+
+To run this project, execute the following command: On your computer's keyboard press f5 or run it with live server
+
+### Run tests
+
+To run tests, run the following command: In visual studio code with live server plugin right click and run live server or you can click on html page.
+
+### Deployment
+You can deploy this project using:
+- Free deployment services like GitHub pages.
+- Any deployment services of your choice.
 
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="#"></a>
 
-- [Live Demo Link](https://alishahsafdari.github.io/Protfolio/)
+- [Live Demo Link](https://alishahsafdari.github.io/Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-<!-- To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-- A browser that supports html5 and css3
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:AliShahSafdari/Protfolio.git
-```
--
-
-### Install
-
-Install this project with:
-
-- Clone the code into your machine and run test in an editor of your choice(E.g VScode). -->
-### Usage
-Opening the index.html with  your browser
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -153,13 +115,15 @@ Opening the index.html with  your browser
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Integrate more dynamic styles with css frameworks]**
-- [ ] **[Develop a database to store information from people who sends information via email]**
+- [ ] **[Better style]**
+- [ ] **[Complete other parts]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Feel free to check the [issues page](https://github.com/AliShahSafdari/Protfolio/issues).
+Feel free to check the [issues page](https://github.com/AliShahSafdari/Capstone-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,13 +138,22 @@ If you like this project or would love to tell me ways to improve it, contact me
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank Microverse community for this opportunity to learn new things.
+I would like to thank to [Cindy Shin](https://www.behance.net/adagio07) for providing the design for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 

@@ -48,27 +48,53 @@
         flex: 1;
     }
 
+    .program_item {
+        flex-direction: column;
+    }
+
+    .join_button_cover button {
+        display: none;
+    }
+
+    .join_button_cover a {
+        text-decoration: none;
+        display: block;
+        font-size: 12px;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    .join_button_cover a:hover {
+        color: white;
+    }
+
     .teacher_part {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid gold; */
     }
 
     .teacher_item {
-       display:grid;
+        display: grid;
         grid-template-columns: 50% 50%;
         padding: 1% 10%;
         column-gap: 8%;
     }
 
     .cards {
-        /* border: 1px solid green; */
         gap: 0%;
     }
-    /* .more{
-        margin-top: 8%;
-    } */
+
+    .more{
+        display: none;
+    }
+    .row-custom1{
+        border: solid 1px white;
+        width: 60% !important;
+    }
+    .not-visibale{
+        display: block;
+    }
 
 }

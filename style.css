@@ -57,7 +57,7 @@
 }
 
 .hr {
-    width: 12% !important;
+    width: 50px !important;
     margin: 10px auto;
     height: 2px;
     background-color: red;
@@ -82,8 +82,7 @@
     justify-content: center;
     align-items: center;
 }
-
-.program_item:hover {
+div .program_item:hover {
     cursor: pointer;
     border: 1px solid white;
 }
@@ -126,6 +125,9 @@
     height: 60px;
     cursor: pointer;
 }
+.join_button_cover a{
+    display: none;
+}
 
 .teacher_part .teachers {
     display: flex;
@@ -144,7 +146,6 @@
     flex-direction: column;
     justify-content: center;
     width: 98%;
-    /* background-color: rgb(105, 102, 102); */
     gap: 12px;
 }
 
@@ -205,4 +206,7 @@
 }
 .more button .bi-chevron-down{
     color:  #ec5242;
+}
+.not-visibale{
+    display: none;
 }

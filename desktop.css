@@ -1,100 +1,101 @@
-@media(min-width:768px) {
-    .must {
-        display: flex;
-        background-color: black;
-    }
+@media (min-width: 768px) {
+  .must {
+    display: flex;
+    background-color: black;
+  }
 
-    .navbar {
-        background-color: white;
-    }
+  .navbar {
+    background-color: white;
+  }
 
-    .head_content {
-        margin-left: 10%;
-    }
+  .head_content {
+    margin-left: 10%;
+  }
 
-    .campaign {
-        border: red 5px solid;
-        padding: 5px 10px;
-        border-radius: 3px;
-    }
+  .campaign {
+    border: red 5px solid;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
 
-    .text-color2 {
-        font-size: 2rem;
-    }
+  .text-color2 {
+    font-size: 2rem;
+  }
 
-    .costom-div {
-        margin-top: 2%;
-        font-size: 3rem;
-    }
+  .costom-div {
+    margin-top: 2%;
+    font-size: 3rem;
+  }
 
-    .text5 {
-        font-size: 1.5rem;
-        width: 80%;
-        padding-right: 10%;
-    }
+  .text5 {
+    font-size: 1.5rem;
+    width: 80%;
+    padding-right: 10%;
+  }
 
-    .rounded h4 {
-        font-size: 2rem;
-    }
+  .rounded h4 {
+    font-size: 2rem;
+  }
 
-    .program_section .program {
-        width: 85%;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5px;
-    }
+  .program_section .program {
+    width: 85%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
 
-    .program_section .program>* {
-        flex: 1;
-    }
+  .program_section .program > * {
+    flex: 1;
+  }
 
-    .program_item {
-        flex-direction: column;
-    }
+  .program_item {
+    flex-direction: column;
+  }
 
-    .join_button_cover button {
-        display: none;
-    }
+  .join_button_cover button {
+    display: none;
+  }
 
-    .join_button_cover a {
-        text-decoration: none;
-        display: block;
-        font-size: 12px;
-        color: white;
-        border-bottom: 1px solid white;
-    }
+  .join_button_cover a {
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid white;
+  }
 
-    .join_button_cover a:hover {
-        color: white;
-    }
+  .join_button_cover a:hover {
+    color: white;
+  }
 
-    .teacher_part {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .teacher_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .teacher_item {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 1% 10%;
-        column-gap: 8%;
-    }
+  .teacher_item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1% 10%;
+    column-gap: 8%;
+  }
 
-    .cards {
-        gap: 0%;
-    }
+  .cards {
+    gap: 0%;
+  }
 
-    .more{
-        display: none;
-    }
-    .row-custom1{
-        border: solid 1px white;
-        width: 60% !important;
-    }
-    .not-visibale{
-        display: block;
-    }
+  .more {
+    display: none;
+  }
 
+  .row-custom1 {
+    border: solid 1px white;
+    width: 60% !important;
+  }
+
+  .not-visibale {
+    display: block;
+  }
 }

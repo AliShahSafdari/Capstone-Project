@@ -2,22 +2,22 @@ const teachers = document.getElementById('card');
 const buttonMore = document.querySelector('#btn_more');
 const teacherInfo = [
   {
-    name: 'Ibrahim Alizada', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/teacher-1.jpeg',alt: 'firstTeacher',
+    name: 'Ibrahim Alizada', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/teacher-1.jpeg', alt: 'firstTeacher',
   },
   {
-    name: 'Maryam Ahmadi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/secondTeacher.jpg',alt: 'secondTeacher',
+    name: 'Maryam Ahmadi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/secondTeacher.jpg', alt: 'secondTeacher',
   },
   {
-    name: 'Zahrah Amin Sourosh', skills: 'Bachelor of English language and percian language', details: 'Execute lessons efficiently using different styles of teaching depending on the content.', img: 'assets/Image/ThirdTeacher.jpg',alt: 'ThirdTeacher',
+    name: 'Zahrah Amin Sourosh', skills: 'Bachelor of English language and percian language', details: 'Execute lessons efficiently using different styles of teaching depending on the content.', img: 'assets/Image/ThirdTeacher.jpg', alt: 'ThirdTeacher',
   },
   {
-    name: 'Mohamddad Ali Jafari', skills: 'PHD of English language and percian language', details: 'Instruct students about the structure and content of the English language.', img: 'assets/Image/4thTeacher.jpg',alt: ' fourthTeacher',
+    name: 'Mohamddad Ali Jafari', skills: 'PHD of English language and percian language', details: 'Instruct students about the structure and content of the English language.', img: 'assets/Image/4thTeacher.jpg', alt: ' fourthTeacher',
   },
   {
-    name: 'Basir Ghaznavi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/5thTeacher.jpg',alt: 'fifthTeacher',
+    name: 'Basir Ghaznavi', skills: 'Bachelor of English language and percian language', details: 'Compose lesson plans in order to successfully incorporate the full duration of each lesson.', img: 'assets/Image/5thTeacher.jpg', alt: 'fifthTeacher',
   },
   {
-    name: 'M Hashim Danish', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/6thTeacher.jpg',alt: 'SixthTeacher',
+    name: 'M Hashim Danish', skills: 'Bachelor of computer sience and English language', details: 'Teach basic English skills including reading, writing, and speaking.', img: 'assets/Image/6thTeacher.jpg', alt: 'SixthTeacher',
   },
 ];
 

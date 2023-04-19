@@ -93,6 +93,7 @@ You can deploy this project using:
 ## 🚀 Live Demo <a name="#"></a>
 
 - [Live Demo Link](https://alishahsafdari.github.io/Capstone-Project/)
+- [Introduction to the project](https://www.loom.com/share/6f8714bbcf7042209f91243e1088807b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

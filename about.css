@@ -1,0 +1,165 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.must,
+.must1 {
+  display: none;
+}
+
+.main {
+  background-image: url(./assets/images/about_bg_01.png);
+  background-position: top;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  background-size: 100vw 18vh;
+  background-color: #f0f0f0;
+}
+
+.nav {
+  font-size: 10px;
+}
+
+.text-color1 .nav-link,
+.active1 {
+  color: #ec5242;
+}
+
+.program_section .Meshkut_logo .nav-link {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #ec5242 !important;
+}
+
+.offcanvas-header a {
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+}
+
+.text-color1 {
+  color: #ec5242;
+}
+
+.text-color2 {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.costom-div {
+  text-indent: 5px;
+  font-size: 1.3rem;
+  width: 80%;
+  margin: 2% auto;
+  color: #ec5242;
+}
+
+.text5 {
+  text-indent: 5%;
+  color: rgb(61, 60, 60);
+  border: 1px solid rgb(180, 178, 178);
+  text-align: center;
+}
+
+.text6 {
+  width: 94%;
+  margin-left: 3%;
+  text-align: center;
+  color: #4e4d4d;
+  margin-bottom: 1%;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  width: 50%;
+  margin-left: 25%;
+  border-bottom: 1px solid #4e4d4d;
+}
+
+.email:hover {
+  color: #555;
+}
+
+.hr {
+  width: 50px !important;
+  margin: 10px auto;
+  height: 2px;
+  background-color: red;
+  color: red;
+}
+
+.tx-custom-black1 {
+  font-size: 12px;
+  color: #272a31;
+}
+
+.program_section .Meshkut_logo {
+  text-align: center;
+  border: #d8d7d7 1px solid;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.history_section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_section .title p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.history_section .img_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.history_section .img_section .img_cover {
+  /* flex: 1; */
+  background-image: url(./assets/images/filarmonica-di-san-pietroburgo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 90%;
+}
+
+.history_section .img_section .img_cover .layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #944038;
+  mix-blend-mode: hard-light;
+  padding: 0 10px;
+}
+
+.history_section .img_section .img_cover > * {
+  color: white;
+}
+
+.history_section .img_section .img_cover .layer p {
+  font-size: 12px;
+}
+
+.custom1 {
+  font-size: 15px;
+}
+
+.custom2 {
+  font-size: 12px;
+}

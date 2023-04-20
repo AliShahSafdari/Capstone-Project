@@ -1,0 +1,84 @@
+@media (min-width: 768px) {
+  .main {
+    background-image: url(./assets/images/about_bg_01.png);
+    background-position: center;
+    background-position-x: 62%;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: #f0f0f0;
+  }
+
+  .must {
+    display: flex;
+    background-color: black;
+  }
+
+  .must1 {
+    display: flex;
+  }
+
+  .navbar {
+    background-color: white;
+  }
+
+  .head_content {
+    margin-left: 10%;
+  }
+
+  .costom-div {
+    font-size: 3rem;
+    margin: 8% auto;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .text5 {
+    width: 90%;
+    margin: 0 auto;
+
+    /* margin-top: 20%; */
+  }
+
+  .campaign {
+    border: red 5px solid;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .text-color2 {
+    font-size: 2rem;
+  }
+
+  .email {
+    width: 30%;
+    margin-left: 40%;
+  }
+
+  .program_section .Meshkut_logo {
+    width: 40%;
+    margin: 0% auto;
+  }
+
+  .history_section .img_section {
+    flex-direction: row;
+    width: 66%;
+    margin: 0 auto;
+    filter: blur(0.7px);
+  }
+
+  .backgrond-color {
+    background-color: #333;
+    margin-bottom: 1%;
+  }
+
+  .custom1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  .custom2 {
+    font-size: 16px;
+    color: white;
+  }
+}

@@ -2,10 +2,10 @@
   .main {
     background-image: url(./assets/images/about_bg_01.png);
     background-position: center;
-    background-position-x: 30%;
-    background-position-y: 50%;
+    background-position-x: 62%;
+    background-position-y: 60%;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 80%;
     background-color: #f0f0f0;
   }
 
@@ -24,6 +24,20 @@
 
   .head_content {
     margin-left: 10%;
+  }
+
+  .costom-div {
+    font-size: 3rem;
+    margin: 8% auto;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .text5 {
+    width: 90%;
+    margin: 0 auto;
+
+    /* margin-top: 20%; */
   }
 
   .campaign {
